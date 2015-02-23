@@ -1,0 +1,42 @@
+{
+  "author": "BuildInTheCloud",
+  "license": "ISC",
+  "name": "node.ES6.web.server",
+  "version": "0.0.1",
+  "description": "ES^ to ES5 web server",
+  "main": "server.js",
+  "private": true,
+  "engines":{"node": "0.12.x || 0.8.x"},
+  "dependencies": {
+      "azure" : "latest",
+      "cheerio" : "latest",
+      "underscore" : "latest",
+      "http-auth" : "latest",
+      "httpsys" : "latest",
+      "node-uuid" : "latest"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "start": "node server.js",
+    "engines":{"node": "0.12.x || 0.8.x"}
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BuildInTheCloud/node.ES6.web.server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/BuildInTheCloud/node.ES6.web.server/issues"
+  },
+  "homepage": "https://github.com/BuildInTheCloud/node.ES6.web.server",
+  "window": {
+		"show": false,
+		"toolbar": false,
+		"frame": false,
+		"position": "center",
+		"width": 360,
+		"height": 300,
+		"min_width": 220,
+		"min_height": 220
+	}
+}
